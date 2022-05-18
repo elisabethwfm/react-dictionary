@@ -22,7 +22,9 @@ export default function DictionarySearch() {
           placeholder="Type a word..."
           onChange={handleSearchTerm}
         ></input>
-        <span className="search-btn">🔍</span>
+        <span className="search-btn" onClick={search}>
+          🔍
+        </span>
       </form>
     </div>
   );
