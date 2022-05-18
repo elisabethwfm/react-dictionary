@@ -5,11 +5,11 @@ export default function DictionarySearch() {
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching for ${searchTerm}`);
+    alert(`Searching for the definition of: ${searchTerm}`);
   }
 
   function handleSearchTerm(event) {
-    console.log(event);
+    setSearchTerm(event.target.value);
   }
 
   return (
