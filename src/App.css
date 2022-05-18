@@ -1,8 +1,29 @@
-/* .App {
+.App {
   text-align: center;
 }
 
-.App-logo {
+.dictionarySearch h1 {
+  font-size: 2.5rem;
+}
+
+.dictionarySearch input {
+  font-size: 1.2rem;
+  border: 1px rgba(0, 0, 0, 0.283) solid;
+  padding: 0.25em;
+  border-radius: 3.5px;
+}
+
+.search-btn {
+  position: relative;
+  right: 1.8rem;
+  opacity: 0.75;
+}
+
+.search-btn:hover {
+  cursor: pointer;
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
